@@ -6,7 +6,7 @@
 
 body {
   margin: 0;
-  background-color: floralwhite;
+  background-color: springgreen;
   color: rebeccapurple;
   font-size: 16px;
 }
@@ -18,11 +18,11 @@ body {
   left: 0px;
   right: 0px;
   bottom: 0px;
-  background-color: lightskyblue;
+  background-color: springgreen;
 }
 
 .button-style {
-  background-color: lightskyblue;
+  background-color: springgreen;
   height: 50px;
   width: 50px;
   border: none;
@@ -33,7 +33,7 @@ body {
 }
 
 .button-style:hover {
-  background-color: lightslategray;
+  background-color: springgreen;
   font-size: 40px;
 }
 

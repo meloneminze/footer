@@ -4,9 +4,11 @@
   box-sizing: border-box;
 }
 
+$background-color: springgreen;
+
 body {
   margin: 0;
-  background-color: floralwhite;
+  background-color: $background-color;
   color: rebeccapurple;
   font-size: 16px;
 }
@@ -18,11 +20,11 @@ body {
   left: 0px;
   right: 0px;
   bottom: 0px;
-  background-color: lightskyblue;
+  background-color: $background-color;
 }
 
 .button-style {
-  background-color: lightskyblue;
+  background-color: $background-color;
   height: 50px;
   width: 50px;
   border: none;
@@ -33,7 +35,7 @@ body {
 }
 
 .button-style:hover {
-  background-color: lightslategray;
+  background-color: $background-color;
   font-size: 40px;
 }
 
