@@ -11,7 +11,7 @@ body {
   font-size: 16px;
 }
 
-.bottom-nav {
+.button-nav {
   position: fixed;
   display: flex;
   justify-content: center;
@@ -19,4 +19,24 @@ body {
   right: 0px;
   bottom: 0px;
   background-color: lightskyblue;
+}
+
+.button-style {
+  background-color: lightskyblue;
+  height: 50px;
+  width: 50px;
+  border: none;
+  outline: none;
+  font-size: 25px;
+  cursor: pointer;
+  transition: all 1s ease-out;
+}
+
+.button-style:hover {
+  background-color: lightslategray;
+  font-size: 40px;
+}
+
+.button-active {
+  background-color: yellow;
 }
